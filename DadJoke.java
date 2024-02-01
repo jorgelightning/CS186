@@ -21,15 +21,12 @@ public class DadJoke {
 
 	public static void main(String[] args) throws Exception {		
 		
-        //String search = args[0];
-        //String url = String.format("https://icanhazdadjoke.com/search?term=%s&limit=1",search);
+        String urlNull = "https://icanhazdadjoke.com/";
+        String jokeNull = getResponseText(urlNull); // Make a web request and save the server's response in a String called joke.
 
         if (args.length == 0)
         {
-            String urlNull = "https://icanhazdadjoke.com/";
-            String jokeNull = getResponseText(urlNull); // Make a web request and save the server's response in a String called joke.
-            System.out.println(jokeNull);
-
+             System.out.println(jokeNull);
         }
         else if (args.length == 1)
             {
@@ -43,6 +40,7 @@ public class DadJoke {
                 else
                 {
                     System.out.println("Sorry, there was no joke for your search term.");
+                    System.out.println(jokeNull);
                 }
             }
 
@@ -51,12 +49,6 @@ public class DadJoke {
         {
             System.out.println("Please only search for 1 search term or no search terms.");
         }
-
-
-        
-		// TO DO:
-		// If there is no joke returned (joke is an empty String), print "Sorry, there was no joke for your search term.",
-		// otherwise, print the joke.
 
 	}
 
