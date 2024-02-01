@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class GuessingGame {
+public class GuessingGame2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int randomNumber = (int) (Math.random() * 100) + 1; // Randomize number 1 - 100
