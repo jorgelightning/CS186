@@ -9,8 +9,7 @@ public class GuessingGame2 {
         String userOneName = scanner.next();
         int userOneGuess = scanner.nextInt();
 
-        System.out.print(
-                "Thanks, " + userOneName + ". Player two, enter your name and guess a number between 1 and 100! ");
+        System.out.print("Thanks, " + userOneName + ". Player two, enter your name and guess a number between 1 and 100! ");
         String userTwoName = scanner.next();
         int userTwoGuess = scanner.nextInt();
 
