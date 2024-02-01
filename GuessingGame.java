@@ -6,24 +6,23 @@ public class GuessingGame {
         int randomNumber = (int) (Math.random() * 100) + 1; // Randomize number 1 - 100
 
         System.out.print("Player one, enter your name and guess a number between 1 and 100! ");
-        String player1Name = scanner.next();
-        int player1Guess = scanner.nextInt();
+        String userOneName = scanner.next();
+        int userOneGuess = scanner.nextInt();
 
         System.out.print(
-                "Thanks, " + player1Name + ". Player two, enter your name and guess a number between 1 and 100! ");
-        String player2Name = scanner.next();
-        int player2Guess = scanner.nextInt();
+                "Thanks, " + userOneName + ". Player two, enter your name and guess a number between 1 and 100! ");
+        String userTwoName = scanner.next();
+        int userTwoGuess = scanner.nextInt();
 
-        int closestGuess = Math.abs(randomNumber - player1Guess) < Math.abs(randomNumber - player2Guess) ? player1Guess : player2Guess;
+        int closestGuess = Math.abs(randomNumber - userOneGuess) < Math.abs(randomNumber - userTwoGuess) ? userOneGuess : userTwoGuess;
 
-        if (player1Guess == player2Guess)
+        if (userOneGuess == userTwoGuess)
             System.out.println("It's a tie!");
-        else if (closestGuess == player1Guess) {
-            System.out.println(player1Name + ", you won!");
+        else if (closestGuess == userOneGuess) {
+            System.out.println(userOneName + ", you won!");
         } else {
-            System.out.println(player2Name + ", you won!");
+            System.out.println(userTwoName + ", you won!");
         }
 
-        System.out.println("The number was " + randomNumber);
     }
 }
