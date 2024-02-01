@@ -36,7 +36,6 @@ public class DadJoke {
                 System.out.println(joke);
             } else {
                 System.out.println("Sorry, there was no joke for your search term.");
-                System.out.println(jokeNull);
             }
         } else {
             System.out.println("Please only search for 1 search term or no search terms.");
