@@ -24,5 +24,6 @@ public class GuessingGame2 {
             System.out.println(userTwoName + ", you won!");
         }
 
+        System.out.println("The number was " + randomNumber);
     }
 }
