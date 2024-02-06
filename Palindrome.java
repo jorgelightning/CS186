@@ -5,20 +5,18 @@ public class Palindrome {
 		// at the top of the file:
 		String str = args[0];
 		String newS = "";
-		str = str.toLowerCase();
 		int len = str.length();
 
 		// Your code goes here:
-
-		for (int i = 0; i < len; i++) {
+		for(int i = 0; i < len; i++) {
 			if (Character.isAlphabetic(str.charAt(i))) {
 				newS += str.charAt(i);
 			}
 
 		}
-		str = newS;
+		str = newS.toLowerCase();
 		len = str.length();
-		System.out.println(str);
+		System.out.println("The string the program is working with: " + str);
 
 		boolean isPalindrome = true;
 
