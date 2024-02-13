@@ -9,7 +9,7 @@ import java.util.Scanner;
 // 3 school star SOS s
 // 7 red roses racecar room sunrise rock train r
 
-public class LabProgram3 {
+public class LabProgram_integerWords {
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
 
