@@ -18,7 +18,7 @@ import java.util.Scanner;
 
 // No
 
-public class LabProgram {
+public class LabProgram_integer {
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
         String userString;
