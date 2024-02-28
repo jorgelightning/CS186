@@ -79,7 +79,7 @@ public class climbingCalculator {
     }
 
     public static void printGreeting() {
-        System.out.println("Welcome to bouldering grade coversion!");
+        System.out.println("Welcome to bouldering grade conversion!");
         System.out.println("1. Start Here");
         System.out.println("2. Exit");
     }
