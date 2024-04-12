@@ -1,0 +1,111 @@
+1,10000,Adam Ondra,Czech Republic
+2,9950,Anak Verhoeven,Netherlands
+3,9700,Margo Hayes,Great Britain
+4,9450,Jessica Pilz,Austria
+5,9200,Ashima Shiraishi,USA
+6,8950,Janja Garnbret,Slovenia
+7,8700,Tomoa Narasaki,Japan
+8,8450,Miho Nonaka,Japan
+9,8200,Laura Rogora,Italy
+10,7950,Aleksej Rubtsov,Russia
+11,7700,Tomoa Narasaki,Japan
+12,7450,Janja Garnbret,Slovenia
+13,7200,Yifei Zhou,China
+14,6950,Chris Sharma,USA
+15,6700,Sasha DiGiulian,USA
+16,6450,Adam Ondra,Czech Republic
+17,6200,Angelika Rainer,Austria
+18,5950,Sean McColl,Canada
+19,5700,Jongwon Chon,South Korea
+20,5450,Jan Hojer,Germany
+21,5200,Anak Verhoeven,Netherlands
+22,4950,Tomoa Narasaki,Japan
+23,4700,Janja Garnbret,Slovenia
+24,4450,Jongwon Chon,South Korea
+25,4200,Adam Ondra,Czech Republic
+26,3950,Chaehyun Seo,South Korea
+27,3700,Miho Nonaka,Japan
+28,3450,Brooke Raboutou,USA
+29,3200,Colin Duffy,USA
+30,2950,Chris Sharma,USA
+31,2700,Kim Jain Kim,South Korea
+32,2450,Shauna Coxsey,Great Britain
+33,2200,Anouck Jaubert,France
+34,1950,Jernej Kruder,Slovenia
+35,1700,Yoshiyuki Ogata,Japan
+36,1450,Miho Nonaka,Japan
+37,1200,Janja Garnbret,Slovenia
+38,950,Adam Ondra,Czech Republic
+39,700,Jakob Schubert,Austria
+40,450,Tomoa Narasaki,Japan
+41,200,Jongwon Chon,South Korea
+42,50,Sean McColl,Canada
+43,100,Sasha DiGiulian,USA
+44,150,Chris Sharma,USA
+45,200,Jakob Schubert,Austria
+46,250,Adam Ondra,Czech Republic
+47,300,Janja Garnbret,Slovenia
+48,350,Tomoa Narasaki,Japan
+49,400,Jongwon Chon,South Korea
+50,450,Miho Nonaka,Japan
+51,500,Kim Jain Kim,South Korea
+52,550,Shauna Coxsey,Great Britain
+53,600,Colin Duffy,USA
+54,650,Brooke Raboutou,USA
+55,700,Anouck Jaubert,France
+56,750,Jernej Kruder,Slovenia
+57,800,Ashima Shiraishi,USA
+58,850,Laura Rogora,Italy
+59,900,Aleksej Rubtsov,Russia
+60,950,Yifei Zhou,China
+61,1000,Anak Verhoeven,Netherlands
+62,1050,Margo Hayes,Great Britain
+63,1100,Jessica Pilz,Austria
+64,1150,Chaehyun Seo,South Korea
+65,1200,Angelika Rainer,Austria
+66,1250,Jan Hojer,Germany
+67,1300,Laura Rogora,Italy
+68,1350,Aleksej Rubtsov,Russia
+69,1400,Yifei Zhou,China
+70,1450,Janja Garnbret,Slovenia
+71,1500,Tomoa Narasaki,Japan
+72,1550,Jessica Pilz,Austria
+73,1600,Ashima Shiraishi,USA
+74,1650,Margo Hayes,Great Britain
+75,1700,Anak Verhoeven,Netherlands
+76,1750,Margo Hayes,Great Britain
+77,1800,Jessica Pilz,Austria
+78,1850,Ashima Shiraishi,USA
+79,1900,Anak Verhoeven,Netherlands
+80,1950,Laura Rogora,Italy
+81,2000,Adam Ondra,Czech Republic
+82,2050,Janja Garnbret,Slovenia
+83,2100,Tomoa Narasaki,Japan
+84,2150,Miho Nonaka,Japan
+85,2200,Laura Rogora,Italy
+86,2250,Aleksej Rubtsov,Russia
+87,2300,Anak Verhoeven,Netherlands
+88,2350,Margo Hayes,Great Britain
+89,2400,Jessica Pilz,Austria
+90,2450,Ashima Shiraishi,USA
+91,2500,Chaehyun Seo,South Korea
+92,2550,Angelika Rainer,Austria
+93,2600,Jan Hojer,Germany
+94,2650,Chris Sharma,USA
+95,2700,Sasha DiGiulian,USA
+96,2750,Jernej Kruder,Slovenia
+97,2800,Sean McColl,Canada
+98,2850,Jakob Schubert,Austria
+99,2900,Kim Jain Kim,South Korea
+100,2950,Shauna Coxsey,Great Britain
+101,3000,Anouck Jaubert,France
+102,3050,Jongwon Chon,South Korea
+103,3100,Colin Duffy,USA
+104,3150,Brooke Raboutou,USA
+105,3200,Yifei Zhou,China
+106,3250,Janja Garnbret,Slovenia
+107,3300,Tomoa Narasaki,Japan
+108,3350,Miho Nonaka,Japan
+109,3400,Laura Rogora,Italy
+110,3450,Aleksej Rubtsov,Russia
+111,3500,Jongwon Chon,South Korea
