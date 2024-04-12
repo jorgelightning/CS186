@@ -44,10 +44,10 @@ public class Driver {
 	      scanner.close();
 
 	      Processes processor = new Processes(climbers);
-	      processor.analyzeClimberDistributionByCountry();
+	      processor.ByCountry();
 
 	    } catch (FileNotFoundException e) {
-	      System.err.println("Error: File climbers.txt not found!");
+	      System.err.println("Error!!: climbers.txt isn't there!");
 	    }
 	  }
 	}
