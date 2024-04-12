@@ -43,7 +43,7 @@ public class Driver {
 	      }
 	      scanner.close();
 
-	      Processes processor = new Processes(climbers);
+	      ClimberAnalyzers processor = new ClimberAnalyzers(climbers);
 	      processor.ByCountry();
 
 	    } catch (FileNotFoundException e) {
