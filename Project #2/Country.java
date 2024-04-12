@@ -16,22 +16,22 @@ public enum Country {
 	GERMANY("Germany"),
 	FRANCE("France");
 
-	private final String name;       
+	private final String name;
 
-    private Country(String s) {
-        name = s;
-    }
+	private Country(String s) {
+		name = s;
+	}
 
-    public String toString() {
-       return this.name;
-    }
-    
-    public static Country getCountryFromString(String country) {
-    	for (Country c: Country.values()) {
-    		if (c.name.equals(country)) {
-    			return c;
-    		}
-    	}
-    	return null;
-    }
+	public String toString() {
+		return this.name;
+	}
+
+	public static Country getCountryFromString(String country) {
+		for (Country c : Country.values()) {
+			if (c.name.equals(country)) {
+				return c;
+			}
+		}
+		return null;
+	}
 }

@@ -5,43 +5,42 @@ import java.io.FileNotFoundException;
 import java.util.*;
 
 public class Driver {
-	  public static void main(String[] args) {
-	    ArrayList<Climber> climbers = new ArrayList<>();
-	    try {
-	      Scanner scanner = new Scanner(new File("climbers.txt"));
+	public static void main(String[] args) {
+		ArrayList<Climber> climbers = new ArrayList<>();
+		try {
+			Scanner scanner = new Scanner(new File("climbers.txt"));
 
-	      while (scanner.hasNextLine()) {
-	        String line = scanner.nextLine();
-	        String[] data = line.split(",");
+			while (scanner.hasNextLine()) {
+				String line = scanner.nextLine();
+				String[] data = line.split(",");
 
-	        int rank = Integer.parseInt(data[0]);
-	        int points = Integer.parseInt(data[1]);
+				int rank = Integer.parseInt(data[0]);
+				int points = Integer.parseInt(data[1]);
 
-	        String fullName = data[2];
-	        
-	        String countryStr = data[3];
-	        Country country = Country.getCountryFromString(countryStr);
+				String fullName = data[2];
 
-	        boolean isDuplicate = false;
-	        for (Climber existingClimber : climbers) {
-	          if (existingClimber.getName().equals(fullName) && existingClimber.getCountry().equals(country)) {
-	            isDuplicate = true;
-	            break;
-	          }
-	        }
+				String countryStr = data[3];
+				Country country = Country.getCountryFromString(countryStr);
 
-	        if (!isDuplicate) {
-	          climbers.add(new Climber(rank, points, fullName, country));
-	        }
-	      }
-	      scanner.close();
+				boolean isDuplicate = false;
+				for (Climber existingClimber : climbers) {
+					if (existingClimber.getName().equals(fullName) && existingClimber.getCountry().equals(country)) {
+						isDuplicate = true;
+						break;
+					}
+				}
 
-	      ClimberAnalyzers processor = new ClimberAnalyzers(climbers);
-	      processor.ByCountry();
+				if (!isDuplicate) {
+					climbers.add(new Climber(rank, points, fullName, country));
+				}
+			}
+			scanner.close();
 
-	    } catch (FileNotFoundException e) {
-	      System.err.println("Error!!: climbers.txt isn't there!");
-	    }
-	  }
+			ClimberAnalyzers processor = new ClimberAnalyzers(climbers);
+			processor.ByCountry();
+
+		} catch (FileNotFoundException e) {
+			System.err.println("Error!!: climbers.txt isn't there!");
+		}
 	}
-
+}
