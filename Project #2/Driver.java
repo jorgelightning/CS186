@@ -18,27 +18,20 @@ public class Driver {
 	        int points = Integer.parseInt(data[1]);
 
 	        String fullName = data[2];
-	        int spaceIndex = fullName.indexOf(' ');
-	        String name;
-	        if (spaceIndex != -1) {
-	          name = fullName.substring(0, spaceIndex);
-	        } else {
-	          name = fullName;
-	        }
-
+	        
 	        String countryStr = data[3];
 	        Country country = Country.getCountryFromString(countryStr);
 
 	        boolean isDuplicate = false;
 	        for (Climber existingClimber : climbers) {
-	          if (existingClimber.getName().equals(name) && existingClimber.getCountry().equals(country)) {
+	          if (existingClimber.getName().equals(fullName) && existingClimber.getCountry().equals(country)) {
 	            isDuplicate = true;
 	            break;
 	          }
 	        }
 
 	        if (!isDuplicate) {
-	          climbers.add(new Climber(rank, points, name, country));
+	          climbers.add(new Climber(rank, points, fullName, country));
 	        }
 	      }
 	      scanner.close();
